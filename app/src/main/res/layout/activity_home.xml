@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".ui.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:background="?attr/colorHomeBackground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/relaxed_icon"
+                android:layout_width="@dimen/icon_size_medium"
+                android:layout_height="@dimen/icon_size_medium"
+                android:layout_margin="@dimen/dimen_standard_2x"
+                android:src="@drawable/ic_relaxedicon"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/targeted_icon"
+                android:layout_width="@dimen/icon_size_medium"
+                android:layout_height="@dimen/icon_size_medium"
+                android:layout_margin="@dimen/dimen_standard_2x"
+                android:src="@drawable/ic_targetedicon_reverse_color"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_day_passed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="54dp"
+                android:layout_toStartOf="@id/btn_menu"
+                android:layout_toEndOf="@id/days_elapsed"
+                android:fontFamily="@font/amiko"
+                android:text="@string/days_elapsed"
+                android:textColor="?attr/colorHomeDayText" />
+
+            <TextView
+                android:id="@+id/days_elapsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:layout_toEndOf="@id/relaxed_icon"
+                android:text="@string/_0"
+                android:textColor="?attr/colorHomeDayNumber"
+                android:textSize="@dimen/text_size_big"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageView
+                android:id="@+id/btn_menu"
+                android:layout_width="@dimen/dimen_standard_6x"
+                android:layout_height="@dimen/icon_size_medium"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/dimen_standard_2x"
+                android:background="@drawable/home_menu_background"
+                android:paddingStart="@dimen/dimen_standard_2x"
+                android:paddingEnd="@dimen/dimen_standard"
+                android:src="@drawable/ic_menu"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/animation_container">
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:visibility="visible"/>
+            <View
+                android:id="@+id/v2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_standard_3x"
+                android:layout_weight="12.6">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/box_height"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/ic_cigtop"
+                    tools:ignore="ContentDescription" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:paddingStart="@dimen/dimen_standard"
+                    android:paddingEnd="@dimen/dimen_standard"
+                    android:gravity="bottom">
+                    <ImageView
+                        android:id="@+id/cigone"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/box_height"
+                        android:src="@drawable/ic_cigone"
+                        tools:ignore="ContentDescription" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="@dimen/box_height"
+                        android:src="@drawable/ic_ciggroup"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cig_front"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/box_height"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/ic_cigfront"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="264dp"
+                    android:fontFamily="@font/amiko"
+                    android:textColor="?attr/colorHomeTimer"
+                    android:textSize="@dimen/text_size_medium"
+                    tools:ignore="RelativeOverlap"
+                    tools:text="02:55:55" />
+
+                <TextView
+                    android:id="@+id/emergency_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="@dimen/dimen_standard"
+                    android:layout_marginBottom="240dp"
+                    android:text="@string/emergency"
+                    android:textColor="?attr/colorHomeEmergencyText"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/emergency_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="@dimen/dimen_standard"
+                    android:layout_marginBottom="214dp"
+                    android:textColor="?attr/colorHomeEmergencyNumber"
+                    android:textSize="@dimen/text_size_medium"
+                    tools:ignore="RelativeOverlap"
+                    tools:text="99/99" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/dimen_standard"
+                    android:layout_marginBottom="220dp"
+                    android:background="@drawable/home_button_undo_background"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="8dp"
+                    android:id="@+id/btn_undo"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_undo"
+                        tools:ignore="ContentDescription"
+                        android:id="@+id/icon_undo"
+                        android:layout_centerVertical="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/icon_undo"
+                        android:layout_marginStart="@dimen/dimen_standard"
+                        android:textColor="?attr/colorHomeUndoText"
+                        android:text="Undo\nlast"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="@dimen/text_size_small"/>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/btn_light"
+                    android:layout_width="@dimen/icon_size_medium"
+                    android:layout_height="@dimen/icon_size_medium"
+                    android:layout_alignBottom="@id/cig_front"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dimen_standard_5x"
+                    android:background="@drawable/home_button_light_background"
+                    android:padding="@dimen/dimen_standard"
+                    android:src="@drawable/ic_match"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="138dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cig_avail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="?attr/colorHomeCigAvailableNumber"
+                        android:textSize="40sp"
+                        tools:text="-9" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/amiko"
+                        android:gravity="center_vertical"
+                        android:text="@string/cigarette_s_navailable"
+                        android:textColor="?attr/colorHomeCigAvailableText"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cig_horizontal"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="@dimen/dimen_standard_5x"
+                    android:layout_marginBottom="500dp"
+                    android:src="@drawable/ic_cighorizontal"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/burned"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="184dp"
+                    android:layout_marginBottom="500dp"
+                    android:src="@drawable/rect_filled_red"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/match"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginBottom="464dp"
+                    android:src="@drawable/ic_matchminiest"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/smooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="480dp"
+                    android:text="@string/smooth"
+                    android:textColor="?attr/colorHomeSmoothText"
+                    android:textSize="@dimen/text_size_big"
+                    android:visibility="gone"
+                    tools:ignore="RelativeOverlap" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:visibility="visible"/>
+            <View
+                android:id="@+id/v4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sideBar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/colorHomeIconMenuBackground"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/ic_setting"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+        <ImageView
+            android:id="@+id/preferences"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/ic_preference"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+        <ImageView
+            android:id="@+id/statistic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/ic_statistic"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+    </LinearLayout>
+
+</LinearLayout>

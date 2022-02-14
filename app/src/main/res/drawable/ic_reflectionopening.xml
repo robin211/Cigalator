@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="133.682dp"
+    android:height="20.004dp"
+    android:viewportWidth="133.682"
+    android:viewportHeight="20.004">
+  <path
+      android:pathData="M16.214,0.748L110.455,0.748A1.399,1.399 0,0 1,111.854 2.148L111.854,2.148A1.399,1.399 0,0 1,110.455 3.547L16.214,3.547A1.399,1.399 0,0 1,14.814 2.148L14.814,2.148A1.399,1.399 0,0 1,16.214 0.748z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.44847"
+      android:fillColor="?attr/colorMainIconReflection"
+      android:strokeColor="?attr/colorMainIconReflection"/>
+  <path
+      android:pathData="M33.865,12.418L131.606,12.418A1.399,1.399 0,0 1,133.005 13.818L133.005,13.818A1.399,1.399 0,0 1,131.606 15.217L33.865,15.217A1.399,1.399 0,0 1,32.466 13.818L32.466,13.818A1.399,1.399 0,0 1,33.865 12.418z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.47436"
+      android:fillColor="?attr/colorMainIconReflection"
+      android:strokeColor="?attr/colorMainIconReflection"/>
+  <path
+      android:pathData="M26.582,4.311L124.322,4.311A1.399,1.399 0,0 1,125.721 5.711L125.721,5.711A1.399,1.399 0,0 1,124.322 7.11L26.582,7.11A1.399,1.399 0,0 1,25.182 5.711L25.182,5.711A1.399,1.399 0,0 1,26.582 4.311z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.47436"
+      android:fillColor="?attr/colorMainIconReflection"
+      android:strokeColor="?attr/colorMainIconReflection"/>
+  <path
+      android:pathData="M6.11,8.542L103.85,8.542A1.399,1.399 0,0 1,105.25 9.941L105.25,9.941A1.399,1.399 0,0 1,103.85 11.34L6.11,11.34A1.399,1.399 0,0 1,4.711 9.941L4.711,9.941A1.399,1.399 0,0 1,6.11 8.542z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.47436"
+      android:fillColor="?attr/colorMainIconReflection"
+      android:strokeColor="?attr/colorMainIconReflection"/>
+  <path
+      android:pathData="M2.196,16.492L99.937,16.492A1.399,1.399 0,0 1,101.336 17.892L101.336,17.892A1.399,1.399 0,0 1,99.937 19.291L2.196,19.291A1.399,1.399 0,0 1,0.797 17.892L0.797,17.892A1.399,1.399 0,0 1,2.196 16.492z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.47436"
+      android:fillColor="?attr/colorMainIconReflection"
+      android:strokeColor="?attr/colorMainIconReflection"/>
+</vector>

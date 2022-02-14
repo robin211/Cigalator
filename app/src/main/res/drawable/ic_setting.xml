@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="46.497dp"
+    android:height="47.249dp"
+    android:viewportWidth="46.497"
+    android:viewportHeight="47.249">
+  <path
+      android:pathData="M6.6769,8.2764l-4.7796,7.8951l37.2309,22.5392l4.7796,-7.8951z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3.72734"
+      android:fillColor="?attr/colorHomeIconSetting"
+      android:strokeColor="?attr/colorHomeIconSetting"/>
+  <path
+      android:pathData="M40.1168,8.7495l4.5505,8.0293l-37.8639,21.4587l-4.5505,-8.0293z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3.72734"
+      android:fillColor="?attr/colorHomeIconSetting"
+      android:strokeColor="?attr/colorHomeIconSetting"/>
+  <path
+      android:pathData="M18.6357,1.8326h9.2291v43.5218h-9.2291z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3.72734"
+      android:fillColor="?attr/colorHomeIconSetting"
+      android:strokeColor="?attr/colorHomeIconSetting"/>
+  <path
+      android:pathData="M22.9805,23.7958m-13.8801,0a13.8801,13.8801 0,1 1,27.7603 0a13.8801,13.8801 0,1 1,-27.7603 0"
+      android:strokeLineJoin="round"
+      android:strokeWidth="9.165"
+      android:fillColor="?attr/colorHomeIconMenuBackground"
+      android:strokeColor="?attr/colorHomeIconSetting"/>
+</vector>

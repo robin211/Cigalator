@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Activity -->
+    <attr name="colorMainBackgroundTop" format = "color"/>
+    <attr name="colorMainBackgroundBottom" format = "color"/>
+    <attr name="colorMainWelcomeText" format = "color"/>
+    <attr name="colorMainIconPrimary" format = "color"/>
+    <attr name="colorMainIconStrip" format = "color"/>
+    <attr name="colorMainIconSmoke" format = "color"/>
+    <attr name="colorMainIconReflection" format = "color"/>
+    <attr name="colorMainTextOpening" format = "color"/>
+    <attr name="colorMainButton" format = "color"/>
+    <attr name="colorMainButtonText" format = "color"/>
+    <attr name="colorMainButtonLoader" format = "color"/>
+
+    <!-- Choose Program Activity -->
+    <attr name="colorChooseProgramBackgroundTop" format = "color"/>
+    <attr name="colorChooseProgramBackgroundBottom" format = "color"/>
+    <attr name="colorChooseProgramRectBorderTop" format = "color"/>
+    <attr name="colorChooseProgramRectBorderBottom" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedCup" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedAshtray" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedCoffee" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedStrip" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedShadow" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedSmoke" format = "color"/>
+    <attr name="colorChooseProgramIconRelaxedSpace" format = "color"/>
+    <attr name="colorChooseProgramTextRelaxedTitle" format = "color"/>
+    <attr name="colorChooseProgramTextRelaxedOne" format = "color"/>
+    <attr name="colorChooseProgramTextRelaxedTwo" format = "color"/>
+    <attr name="colorChooseProgramTextRelaxedThree" format = "color"/>
+    <attr name="colorChooseProgramButtonOkRelaxedBackground" format = "color"/>
+    <attr name="colorChooseProgramButtonOkRelaxedText" format = "color"/>
+    <attr name="colorChooseProgramIconTargetedCrosshair" format = "color"/>
+    <attr name="colorChooseProgramIconTargetedCigs" format = "color"/>
+    <attr name="colorChooseProgramIconTargetedStrip" format = "color"/>
+    <attr name="colorChooseProgramIconTargetedSpace" format = "color"/>
+    <attr name="colorChooseProgramTextTargetedTitle" format = "color"/>
+    <attr name="colorChooseProgramTextTargetedOne" format = "color"/>
+    <attr name="colorChooseProgramTextTargetedTwo" format = "color"/>
+    <attr name="colorChooseProgramTextTargetedThree" format = "color"/>
+    <attr name="colorChooseProgramButtonOkTargetedBackground" format = "color"/>
+    <attr name="colorChooseProgramButtonOkTargetedText" format = "color"/>
+
+    <!-- Setup Relaxed Activity -->
+    <attr name="colorSetupRelaxedBackground" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedCup" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedAshtray" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedCoffee" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedStrip" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedShadow" format = "color"/>
+    <attr name="colorSetupRelaxedIconRelaxedSmoke" format = "color"/>
+    <attr name="colorSetupRelaxedTextTitle" format = "color"/>
+    <attr name="colorSetupRelaxedTextMaxCigarette" format = "color"/>
+    <attr name="colorSetupRelaxedTextMaxCigaretteDesc" format = "color"/>
+    <attr name="colorSetupRelaxedEditTextMaxCigaretteBackground" format = "color"/>
+    <attr name="colorSetupRelaxedEditTextMaxCigaretteText" format = "color"/>
+    <attr name="colorSetupRelaxedTextEmergency" format = "color"/>
+    <attr name="colorSetupRelaxedTextEmergencyDesc" format = "color"/>
+    <attr name="colorSetupRelaxedEditTextEmergencyBackground" format = "color"/>
+    <attr name="colorSetupRelaxedEditTextEmergencyText" format = "color"/>
+    <attr name="colorSetupRelaxedTextOpeningDesc" format = "color"/>
+    <attr name="colorSetupRelaxedTextNever" format = "color"/>
+    <attr name="colorSetupRelaxedTextHour" format = "color"/>
+    <attr name="colorSetupRelaxedTextNumberHour" format = "color"/>
+    <attr name="colorSetupRelaxedTextMinute" format = "color"/>
+    <attr name="colorSetupRelaxedTextNumberMinute" format = "color"/>
+    <attr name="colorSetupRelaxedTextSecond" format = "color"/>
+    <attr name="colorSetupRelaxedTextNumberSecond" format = "color"/>
+    <attr name="colorSetupRelaxedTextEmergencyDescBottom" format = "color"/>
+    <attr name="colorSetupRelaxedButton" format = "color"/>
+    <attr name="colorSetupRelaxedButtonText" format = "color"/>
+    <attr name="colorSetupRelaxedButtonLoader" format = "color"/>
+
+    <!-- Setup targeted Activity -->
+    <attr name="colorSetupTargetedBackground" format = "color"/>
+    <attr name="colorSetupTargetedIconTargetedCrosshair" format = "color"/>
+    <attr name="colorSetupTargetedIconTargetedCigs" format = "color"/>
+    <attr name="colorSetupTargetedIconTargetedStrip" format = "color"/>
+    <attr name="colorSetupTargetedTextTitle" format = "color"/>
+    <attr name="colorSetupTargetedTextMaxCigarette" format = "color"/>
+    <attr name="colorSetupTargetedTextMaxCigaretteDesc" format = "color"/>
+    <attr name="colorSetupTargetedEditTextMaxCigaretteBackground" format = "color"/>
+    <attr name="colorSetupTargetedEditTextMaxCigaretteText" format = "color"/>
+    <attr name="colorSetupTargetedTextTarget" format = "color"/>
+    <attr name="colorSetupTargetedTextTargetDesc" format = "color"/>
+    <attr name="colorSetupTargetedEditTextTargetBackground" format = "color"/>
+    <attr name="colorSetupTargetedEditTextTargetText" format = "color"/>
+    <attr name="colorSetupTargetedTextEmergency" format = "color"/>
+    <attr name="colorSetupTargetedTextEmergencyDesc" format = "color"/>
+    <attr name="colorSetupTargetedEditTextEmergencyBackground" format = "color"/>
+    <attr name="colorSetupTargetedEditTextEmergencyText" format = "color"/>
+    <attr name="colorSetupTargetedTextOpeningDesc" format = "color"/>
+    <attr name="colorSetupTargetedTextNever" format = "color"/>
+    <attr name="colorSetupTargetedTextHour" format = "color"/>
+    <attr name="colorSetupTargetedTextNumberHour" format = "color"/>
+    <attr name="colorSetupTargetedTextMinute" format = "color"/>
+    <attr name="colorSetupTargetedTextNumberMinute" format = "color"/>
+    <attr name="colorSetupTargetedTextSecond" format = "color"/>
+    <attr name="colorSetupTargetedTextNumberSecond" format = "color"/>
+    <attr name="colorSetupTargetedTextEmergencyDescBottom" format = "color"/>
+    <attr name="colorSetupTargetedButton" format = "color"/>
+    <attr name="colorSetupTargetedButtonText" format = "color"/>
+    <attr name="colorSetupTargetedButtonLoader" format = "color"/>
+
+    <!-- Home Activity -->
+    <attr name="colorHomeBackground" format = "color"/>
+    <attr name="colorHomeDayNumber" format = "color"/>
+    <attr name="colorHomeDayText" format = "color"/>
+    <attr name="colorHomeIconMenuBackground" format = "color"/>
+    <attr name="colorHomeIconMenuCig" format = "color"/>
+    <attr name="colorHomeIconMenuStrip" format = "color"/>
+    <attr name="colorHomeIconSetting" format = "color"/>
+    <attr name="colorHomeIconPreference" format = "color"/>
+    <attr name="colorHomeIconStatistic" format = "color"/>
+    <attr name="colorHomeIconTargetedCrosshair" format = "color"/>
+    <attr name="colorHomeIconTargetedCig" format = "color"/>
+    <attr name="colorHomeIconTargetedStrip" format = "color"/>
+    <attr name="colorHomeCigStroke" format = "color"/>
+    <attr name="colorHomeCigBody" format = "color"/>
+    <attr name="colorHomeBoxTopLid" format = "color"/>
+    <attr name="colorHomeBoxInnerCover" format = "color"/>
+    <attr name="colorHomeBoxMidSection" format = "color"/>
+    <attr name="colorHomeBoxBottomSection" format = "color"/>
+    <attr name="colorHomeTimer" format = "color"/>
+    <attr name="colorHomeEmergencyText" format = "color"/>
+    <attr name="colorHomeEmergencyNumber" format = "color"/>
+    <attr name="colorHomeCigAvailableText" format = "color"/>
+    <attr name="colorHomeCigAvailableNumber" format = "color"/>
+    <attr name="colorHomeBtnBackground" format = "color"/>
+    <attr name="colorHomeMatchStick" format = "color"/>
+    <attr name="colorHomeMatchFire" format = "color"/>
+    <attr name="colorHomeSmoothText" format = "color"/>
+    <attr name="colorHomeUndoText" format = "color"/>
+    <attr name="colorHomeUndoBackground" format = "color"/>
+    <attr name="colorHomeUndoIcon" format = "color"/>
+    <attr name="colorHomeWhyBackground" format = "color"/>
+    <attr name="colorHomeWhyItemMoodBackground" format = "color"/>
+    <attr name="colorHomeWhyItemMoodTextTitle" format = "color"/>
+    <attr name="colorHomeWhyItemMoodText" format = "color"/>
+    <attr name="colorHomeWhyItemEventBackground" format = "color"/>
+    <attr name="colorHomeWhyItemEventTextTitle" format = "color"/>
+    <attr name="colorHomeWhyItemEventText" format = "color"/>
+
+    <!-- Option Activity -->
+    <attr name="colorOptionBackground" format = "color"/>
+    <attr name="colorOptionTitle" format = "color"/>
+    <attr name="colorOptionBackBacground" format = "color"/>
+    <attr name="colorOptionBackIcon" format = "color"/>
+
+    <!-- Settings Fragment -->
+    <attr name="colorSettingsBackground" format = "color"/>
+    <attr name="colorSettingsChangeProgramBackground" format = "color"/>
+    <attr name="colorSettingsChangeProgramTitle" format = "color"/>
+    <attr name="colorSettingsChangeProgramDesc" format = "color"/>
+    <attr name="colorSettingsChangeProgramButtonBackground" format = "color"/>
+    <attr name="colorSettingsChangeProgramButtontext" format = "color"/>
+    <attr name="colorSettingsChangeCounterBackground" format = "color"/>
+    <attr name="colorSettingsChangeCounterBackgroundStroke" format = "color"/>
+    <attr name="colorSettingsChangeCounterTitle" format = "color"/>
+    <attr name="colorSettingsChangeCounterDesc" format = "color"/>
+    <attr name="colorSettingsChangeCounterButtonBackground" format = "color"/>
+    <attr name="colorSettingsChangeCounterButtontext" format = "color"/>
+
+    <!-- Statistic Fragment -->
+    <attr name="colorStatisticBackground" format = "color"/>
+    <attr name="colorStatisticCardBackground" format = "color"/>
+    <attr name="colorStatisticText" format = "color"/>
+    <attr name="colorStatisticLine" format = "color"/>
+
+    <!-- Preference Fragment -->
+    <attr name="colorPreferenceBackground" format = "color"/>
+    <attr name="colorPreferenceBackgroundCard" format = "color"/>
+    <attr name="colorPreferenceTextCalmingBlue" format = "color"/>
+    <attr name="colorPreferenceTextCalmingBlueDesc" format = "color"/>
+    <attr name="colorPreferenceTextDarkYetStriking" format = "color"/>
+    <attr name="colorPreferenceTextDarkYetStrikingDesc" format = "color"/>
+    <attr name="colorPreferenceTextKnightOfTheDark" format = "color"/>
+    <attr name="colorPreferenceTextKnightOfTheDarkDesc" format = "color"/>
+
+    <attr name="colorDialogText" format = "color"/>
+    <attr name="colorDialogButton" format = "color"/>
+    <attr name="colorDialogButtonText" format = "color"/>
+    <attr name="colorDialogButtonLoader" format = "color"/>
+    <attr name="colorDialogThemeCalmingBlue" format = "color"/>
+    <attr name="colorDialogThemeDarkYetStriking" format = "color"/>
+    <attr name="colorDialogThemeKnightOfTheDark" format = "color"/>
+
+</resources>

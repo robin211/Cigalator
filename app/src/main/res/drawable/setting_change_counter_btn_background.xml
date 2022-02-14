@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:topLeftRadius="@dimen/radius_standard"
+        android:bottomRightRadius="@dimen/radius_standard"/>
+    <solid android:color="?attr/colorSettingsChangeCounterButtonBackground"/>
+    <stroke
+        android:width="5px"
+        android:color="?attr/colorSettingsChangeCounterButtonBackground" />
+</shape>

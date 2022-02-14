@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPreferenceBackground"
+    tools:context=".ui.PreferenceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/calming_blue_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_card_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_standard">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/dimen_standard"
+                android:background="@drawable/ic_themecalmingblue"
+                tools:ignore="ContentDescription"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/calming_blue_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/calming_nblue"
+                    android:textColor="?attr/colorPreferenceTextCalmingBlue"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/calming_blue_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_standard"
+                    android:gravity="center_horizontal"
+                    android:text="@string/nice_and_easy_on_the_eye_a_refreshing_theme_almost_like_a_breeze_of_the_wind_on_your_skin"
+                    android:textColor="?attr/colorPreferenceTextCalmingBlueDesc" />
+
+                <ImageView
+                    android:id="@+id/check_calming_blue"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end|bottom"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_check_calming_blue"
+                    android:visibility="visible"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dash_calming_blue"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_dash_calming_blue"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dark_yet_striking_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_standard_2x"
+            android:background="@drawable/preference_card_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_standard">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_standard"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dark_yet_striking_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/dark_nyet_nstriking"
+                    android:textColor="?attr/colorPreferenceTextDarkYetStriking"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dark_yet_striking_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_standard"
+                    android:gravity="center_horizontal"
+                    android:text="@string/something_cool_yet_brave_a_combination_that_give_you_elegance_in_boldness"
+                    android:textColor="?attr/colorPreferenceTextDarkYetStrikingDesc" />
+
+                <ImageView
+                    android:id="@+id/check_dark_yet_striking"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_check_dark_yet_striking"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dash_dark_yet_striking"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start|bottom"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_dash_dark_yet_striking"
+                    android:visibility="visible"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/dimen_standard"
+                android:background="@drawable/ic_themedarkyetstriking"
+                tools:ignore="ContentDescription"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/knight_of_the_dark_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_standard_2x"
+            android:background="@drawable/preference_card_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_standard">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/dimen_standard"
+                android:background="@drawable/ic_themeknightofdark"
+                tools:ignore="ContentDescription"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/knight_of_the_dark_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/knight_of_the_dark"
+                    android:textColor="?attr/colorPreferenceTextKnightOfTheDark"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/knight_of_the_dark_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_standard"
+                    android:gravity="center_horizontal"
+                    android:text="@string/cool_and_full_of_mystery_the_very_symbol_of_awesomeness_and_a_sign_to_go_nananananana"
+                    android:textColor="?attr/colorPreferenceTextKnightOfTheDarkDesc" />
+
+                <ImageView
+                    android:id="@+id/check_knight_of_the_dark"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end|bottom"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_check_knight_of_the_dark"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dash_knight_of_the_dark"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/dimen_standard_2x"
+                    android:src="@drawable/ic_dash_knight_of_the_dark"
+                    android:visibility="visible"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="37.582dp"
+    android:height="31.077dp"
+    android:viewportWidth="37.582"
+    android:viewportHeight="31.077">
+  <path
+      android:pathData="M2.553,0.3895L34.7625,0.0699A2.5149,2.5381 105.3109,0 1,37.3358 2.5612L37.3517,3.6324A2.5149,2.5381 105.3109,0 1,34.8527 6.174L2.6432,6.4936A2.5149,2.5381 105.3109,0 1,0.0699 4.0023L0.054,2.931A2.5149,2.5381 105.3109,0 1,2.553 0.3895z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M26.5752,0.4157L26.5752,0.4157A0.5084,0.1759 89.1153,0 1,26.7586 0.9223L26.8234,5.3027A0.5084,0.1759 89.1153,0 1,26.655 5.8129L26.655,5.8129A0.5084,0.1759 89.1153,0 1,26.4716 5.3062L26.4069,0.9258A0.5084,0.1759 89.1153,0 1,26.5752 0.4157z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M26.8212,0.6797L26.895,0.6761A0.1277,0.0984 91.1096,0 1,26.9961 0.799L27.0987,5.6703A0.1277,0.0984 91.1096,0 1,27.003 5.8027L26.9292,5.8063A0.1277,0.0984 91.1096,0 1,26.8282 5.6835L26.7256,0.8121A0.1277,0.0984 91.1096,0 1,26.8212 0.6797z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorHomeIconMenuStrip"
+      android:strokeColor="?attr/colorHomeIconMenuStrip"/>
+  <path
+      android:pathData="M2.7167,12.8094L34.9262,12.4898A2.5149,2.5381 105.3109,0 1,37.4996 14.981L37.5154,16.0523A2.5149,2.5381 105.3109,0 1,35.0164 18.5939L2.8069,18.9135A2.5149,2.5381 105.3109,0 1,0.2336 16.4222L0.2177,15.3509A2.5149,2.5381 105.3109,0 1,2.7167 12.8094z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M26.739,12.8356L26.739,12.8356A0.5084,0.1759 89.1153,0 1,26.9223 13.3422L26.9871,17.7226A0.5084,0.1759 89.1153,0 1,26.8187 18.2328L26.8187,18.2328A0.5084,0.1759 89.1153,0 1,26.6354 17.7261L26.5706,13.3457A0.5084,0.1759 89.1153,0 1,26.739 12.8356z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M26.985,13.0996L27.0588,13.096A0.1277,0.0984 91.1096,0 1,27.1598 13.2189L27.2624,18.0902A0.1277,0.0984 91.1096,0 1,27.1667 18.2226L27.0929,18.2262A0.1277,0.0984 91.1096,0 1,26.9919 18.1034L26.8893,13.232A0.1277,0.0984 91.1096,0 1,26.985 13.0996z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorHomeIconMenuStrip"
+      android:strokeColor="?attr/colorHomeIconMenuStrip"/>
+  <path
+      android:pathData="M2.7439,24.9025L34.9534,24.5829A2.5149,2.5381 105.3109,0 1,37.5268 27.0742L37.5426,28.1454A2.5149,2.5381 105.3109,0 1,35.0436 30.687L2.8342,31.0066A2.5149,2.5381 105.3109,0 1,0.2608 28.5153L0.245,27.4441A2.5149,2.5381 105.3109,0 1,2.7439 24.9025z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M26.7662,24.9287L26.7662,24.9287A0.5084,0.1759 89.1153,0 1,26.9496 25.4353L27.0143,29.8157A0.5084,0.1759 89.1153,0 1,26.846 30.3259L26.846,30.3259A0.5084,0.1759 89.1153,0 1,26.6626 29.8192L26.5978,25.4388A0.5084,0.1759 89.1153,0 1,26.7662 24.9287z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorHomeIconMenuCig"
+      android:strokeColor="?attr/colorHomeIconMenuCig"/>
+  <path
+      android:pathData="M27.0122,25.1927L27.086,25.1891A0.1277,0.0984 91.1096,0 1,27.187 25.312L27.2896,30.1833A0.1277,0.0984 91.1096,0 1,27.194 30.3158L27.1202,30.3194A0.1277,0.0984 91.1096,0 1,27.0191 30.1965L26.9165,25.3252A0.1277,0.0984 91.1096,0 1,27.0122 25.1927z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorHomeIconMenuStrip"
+      android:strokeColor="?attr/colorHomeIconMenuStrip"/>
+</vector>

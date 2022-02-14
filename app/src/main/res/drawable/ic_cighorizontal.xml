@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="165.042dp"
+    android:height="16.002dp"
+    android:viewportWidth="165.042"
+    android:viewportHeight="16.002">
+  <path
+      android:pathData="M164.679,3.063L164.679,13.102A2.536,2.517 90,0 1,162.162 15.639L3.044,15.639A2.536,2.517 90,0 1,0.527 13.102L0.527,3.063A2.536,2.517 90,0 1,3.044 0.527L162.162,0.527A2.536,2.517 90,0 1,164.679 3.063z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.890363"
+      android:fillColor="?attr/colorHomeCigBody"
+      android:strokeColor="?attr/colorHomeCigStroke"/>
+  <path
+      android:pathData="m117.695,0.591 l0.032,14.885l-0.139,0"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="1.065"
+      android:fillColor="?attr/colorHomeCigStroke"
+      android:strokeColor="?attr/colorHomeCigStroke"
+      android:strokeLineCap="butt"/>
+</vector>

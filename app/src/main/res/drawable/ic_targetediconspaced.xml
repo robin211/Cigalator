@@ -1,0 +1,244 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="135.934dp"
+    android:height="201.882dp"
+    android:viewportWidth="135.934"
+    android:viewportHeight="201.882">
+  <path
+      android:pathData="M60.523,35.211h14.589v11.999h-14.589z"
+      android:strokeAlpha="0.995984"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.562727"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedSpace"/>
+  <path
+      android:pathData="M60.851,156.496h15.115v10.605h-15.115z"
+      android:strokeAlpha="0.995984"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.538499"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedSpace"/>
+  <path
+      android:pathData="M67.879,101.762m-54.616,0a54.616,54.616 0,1 1,109.231 0a54.616,54.616 45,1 1,-109.231 0"
+      android:strokeAlpha="0.995984"
+      android:strokeLineJoin="round"
+      android:strokeWidth="5.014"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCrosshair"/>
+  <path
+      android:pathData="m68.194,34.843l0,26.106 0,0"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="5.014"
+      android:fillColor="#00000000"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCrosshair"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m68.18,141.105l0,26.106 0,0"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="5.014"
+      android:fillColor="#00000000"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCrosshair"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m135.872,101.388l-26.106,0l0,0"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="5.014"
+      android:fillColor="#00000000"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCrosshair"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m26.044,101.143l-26.106,0l0,0"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="5.014"
+      android:fillColor="#00000000"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCrosshair"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M72.18,127.588L71.843,75.946A2.549,2.504 121.448,0 1,74.343 73.353L75.414,73.329A2.549,2.504 121.448,0 1,77.947 75.808L78.284,127.451A2.549,2.504 121.448,0 1,75.784 130.043L74.713,130.067A2.549,2.504 121.448,0 1,72.18 127.588z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M72.198,89.722L72.198,89.722A0.267,0.509 88.362,0 1,72.704 89.443L77.085,89.345A0.267,0.509 88.362,0 1,77.595 89.601L77.595,89.601A0.267,0.509 88.362,0 1,77.088 89.88L72.708,89.978A0.267,0.509 88.362,0 1,72.198 89.722z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M72.463,89.382L72.457,89.202A0.116,0.116 133.165,0 1,72.57 89.083L77.464,88.926A0.116,0.116 133.165,0 1,77.584 89.038L77.589,89.217A0.116,0.116 133.165,0 1,77.477 89.337L72.583,89.494A0.116,0.116 133.165,0 1,72.463 89.382z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.120493"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedSpace"/>
+  <path
+      android:pathData="M79.165,127.466L78.828,75.824A2.549,2.504 121.448,0 1,81.328 73.232L82.399,73.208A2.549,2.504 121.448,0 1,84.932 75.687L85.269,127.329A2.549,2.504 121.448,0 1,82.769 129.922L81.698,129.946A2.549,2.504 121.448,0 1,79.165 127.466z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M79.182,89.601L79.182,89.601A0.267,0.509 88.362,0 1,79.689 89.322L84.069,89.224A0.267,0.509 88.362,0 1,84.58 89.48L84.58,89.48A0.267,0.509 88.362,0 1,84.073 89.759L79.693,89.857A0.267,0.509 88.362,0 1,79.182 89.601z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M79.448,89.26L79.442,89.081A0.116,0.116 133.165,0 1,79.554 88.961L84.448,88.804A0.116,0.116 133.165,0 1,84.568 88.917L84.574,89.096A0.116,0.116 133.165,0 1,84.462 89.216L79.567,89.373A0.116,0.116 133.165,0 1,79.448 89.26z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorChooseProgramIconTargetedStrip"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedStrip"/>
+  <path
+      android:pathData="M86.15,127.345L85.813,75.703A2.549,2.504 121.448,0 1,88.313 73.11L89.384,73.086A2.549,2.504 121.448,0 1,91.917 75.566L92.254,127.208A2.549,2.504 121.448,0 1,89.754 129.801L88.682,129.825A2.549,2.504 121.448,0 1,86.15 127.345z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M86.167,89.48L86.167,89.48A0.267,0.509 88.362,0 1,86.674 89.201L91.054,89.102A0.267,0.509 88.362,0 1,91.564 89.358L91.564,89.358A0.267,0.509 88.362,0 1,91.058 89.637L86.677,89.736A0.267,0.509 88.362,0 1,86.167 89.48z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M86.432,89.139L86.426,88.96A0.116,0.116 133.165,0 1,86.539 88.84L91.433,88.683A0.116,0.116 133.165,0 1,91.553 88.795L91.559,88.975A0.116,0.116 133.165,0 1,91.446 89.094L86.552,89.251A0.116,0.116 133.165,0 1,86.432 89.139z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorChooseProgramIconTargetedStrip"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedStrip"/>
+  <path
+      android:pathData="M44.064,128.089L43.727,76.447A2.549,2.504 121.448,0 1,46.227 73.854L47.298,73.83A2.549,2.504 121.448,0 1,49.831 76.31L50.168,127.952A2.549,2.504 121.448,0 1,47.668 130.545L46.597,130.569A2.549,2.504 121.448,0 1,44.064 128.089z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M44.081,90.224L44.081,90.224A0.267,0.509 88.362,0 1,44.588 89.945L48.968,89.846A0.267,0.509 88.362,0 1,49.478 90.102L49.478,90.102A0.267,0.509 88.362,0 1,48.972 90.381L44.591,90.48A0.267,0.509 88.362,0 1,44.081 90.224z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M44.346,89.883L44.341,89.704A0.116,0.116 133.165,0 1,44.453 89.584L49.347,89.427A0.116,0.116 133.165,0 1,49.467 89.54L49.473,89.719A0.116,0.116 133.165,0 1,49.36 89.839L44.466,89.995A0.116,0.116 133.165,0 1,44.346 89.883z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorChooseProgramIconTargetedStrip"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedStrip"/>
+  <path
+      android:pathData="M51.048,127.968L50.712,76.326A2.549,2.504 121.448,0 1,53.211 73.733L54.283,73.709A2.549,2.504 121.448,0 1,56.816 76.188L57.152,127.83A2.549,2.504 121.448,0 1,54.653 130.423L53.581,130.447A2.549,2.504 121.448,0 1,51.048 127.968z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M51.066,90.102L51.066,90.102A0.267,0.509 88.362,0 1,51.573 89.823L55.953,89.725A0.267,0.509 88.362,0 1,56.463 89.981L56.463,89.981A0.267,0.509 88.362,0 1,55.956 90.26L51.576,90.358A0.267,0.509 88.362,0 1,51.066 90.102z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M51.331,89.762L51.325,89.582A0.116,0.116 133.165,0 1,51.438 89.462L56.332,89.306A0.116,0.116 133.165,0 1,56.452 89.418L56.458,89.597A0.116,0.116 133.165,0 1,56.345 89.717L51.451,89.874A0.116,0.116 133.165,0 1,51.331 89.762z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorChooseProgramIconTargetedStrip"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedStrip"/>
+  <path
+      android:pathData="M58.033,127.846L57.696,76.204A2.549,2.504 121.448,0 1,60.196 73.612L61.267,73.587A2.549,2.504 121.448,0 1,63.8 76.067L64.137,127.709A2.549,2.504 121.448,0 1,61.637 130.302L60.566,130.326A2.549,2.504 121.448,0 1,58.033 127.846z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M58.051,89.981L58.051,89.981A0.267,0.509 88.362,0 1,58.557 89.702L62.938,89.604A0.267,0.509 88.362,0 1,63.448 89.86L63.448,89.86A0.267,0.509 88.362,0 1,62.941 90.139L58.561,90.237A0.267,0.509 88.362,0 1,58.051 89.981z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M58.316,89.64L58.31,89.461A0.116,0.116 133.165,0 1,58.422 89.341L63.317,89.184A0.116,0.116 133.165,0 1,63.437 89.297L63.442,89.476A0.116,0.116 133.165,0 1,63.33 89.596L58.436,89.753A0.116,0.116 133.165,0 1,58.316 89.64z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.156546"
+      android:fillColor="?attr/colorChooseProgramIconTargetedStrip"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedStrip"/>
+  <path
+      android:pathData="M66.064,129.187L64.15,103.01A1.289,3.052 85.916,0 1,67.1 101.506L67.1,101.506A1.289,3.052 85.916,0 1,70.239 102.573L72.153,128.75A1.289,3.052 85.916,0 1,69.202 130.254L69.202,130.254A1.289,3.052 85.916,0 1,66.064 129.187z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M64.924,109.977L64.924,109.977A0.136,1 85.9,0 1,65.912 109.77L69.3,109.527A0.136,1 85.9,0 1,70.308 109.591L70.308,109.591A0.136,1 85.9,0 1,69.32 109.798L65.932,110.041A0.136,1 85.9,0 1,64.924 109.977z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M63.482,91.937L67.209,67.798c0.101,-0.657 1.528,-0.974 3.198,-0.71 1.67,0.263 2.933,1.004 2.832,1.661L69.512,92.888c-0.045,0.29 -0.347,0.513 -0.815,0.65 -0.592,0.173 -1.45,0.207 -2.383,0.06 -1.67,-0.263 -2.933,-1.004 -2.832,-1.661z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:fillType="nonZero"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m63.413,91.926c-0.105,0.678 1.195,1.437 2.896,1.705 1.701,0.268 3.167,-0.054 3.272,-0.733L73.308,68.76c0.105,-0.678 -1.195,-1.437 -2.895,-1.705 -1.701,-0.268 -3.168,0.054 -3.273,0.732zM63.552,91.948L67.279,67.809c0.098,-0.635 1.484,-0.947 3.124,-0.688 1.64,0.258 2.865,0.981 2.767,1.617L69.443,92.877c-0.098,0.635 -1.483,0.947 -3.123,0.688 -1.64,-0.258 -2.866,-0.982 -2.768,-1.617z"
+      android:strokeLineJoin="round"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="#00000000"
+      android:fillType="nonZero"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M66.476,74.282L66.476,74.282A0.127,1.075 98.96,0 1,67.557 74.324L70.765,74.83A0.127,1.075 98.96,0 1,71.807 75.122L71.807,75.122A0.127,1.075 98.96,0 1,70.726 75.08L67.518,74.574A0.127,1.075 98.96,0 1,66.476 74.282z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorChooseProgramIconTargetedCigs"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedCigs"/>
+  <path
+      android:pathData="M65.536,82.524L65.56,82.347A0.116,0.116 52.731,0 1,65.691 82.247L70.543,82.906A0.116,0.116 52.731,0 1,70.642 83.037L70.618,83.214A0.116,0.116 52.731,0 1,70.487 83.314L65.635,82.655A0.116,0.116 52.731,0 1,65.536 82.524z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.120493"
+      android:fillColor="?attr/colorPrimaryDark"
+      android:strokeColor="?attr/colorPrimaryDark"/>
+  <path
+      android:pathData="m69.457,92.951 l-0.209,1.324 -0.802,-0.732 -1.359,1.359 -1.08,-1.812 -0.523,0.802 -0.349,-0.732 -0.871,1.533 -0.851,-2.767z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.264583"
+      android:fillColor="?attr/colorPrimary"
+      android:strokeColor="?attr/colorPrimary"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m70.003,102.071 l-0.198,-1.289 -0.757,0.712 -1.284,-1.323 -1.021,1.764 -0.494,-0.78 -0.329,0.712 -0.823,-1.492 -0.804,2.693z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.253709"
+      android:fillColor="?attr/colorPrimary"
+      android:strokeColor="?attr/colorPrimary"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m65.449,97.599 l-0.244,0.871 0.418,1.08 0.139,-0.941z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.264583"
+      android:fillColor="?attr/colorPrimary"
+      android:strokeColor="?attr/colorPrimary"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m68.516,94.763 l0.453,1.115 -0.383,1.15z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.264583"
+      android:fillColor="?attr/colorPrimary"
+      android:strokeColor="?attr/colorPrimary"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M60.416,0.668h14.695v34.544h-14.695z"
+      android:strokeAlpha="0.995984"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.958291"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedSpace"/>
+  <path
+      android:pathData="M61.324,167.048h14.695v34.544h-14.695z"
+      android:strokeAlpha="0.995984"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.958291"
+      android:fillColor="?attr/colorChooseProgramIconTargetedSpace"
+      android:strokeColor="?attr/colorChooseProgramIconTargetedSpace"/>
+</vector>

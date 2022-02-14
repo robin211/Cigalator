@@ -1,0 +1,597 @@
+<resources>
+    <style name="CalmingBlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/calmingBlueWhite</item>
+        <item name="colorPrimaryDark">@color/calmingBlueLightBlue</item>
+        <item name="colorAccent">@color/calmingBlueLightBlue</item>
+
+        <!-- Main Activity -->
+        <item name="colorMainBackgroundTop">@color/calmingBlueWhite</item>
+        <item name="colorMainBackgroundBottom">@color/calmingBlueLightBlue</item>
+        <item name="colorMainWelcomeText">@color/calmingBlueLightBlue</item>
+        <item name="colorMainIconPrimary">@color/calmingBlueLightBlue</item>
+        <item name="colorMainIconStrip">@color/calmingBlueWhite</item>
+        <item name="colorMainIconSmoke">@color/calmingBlueLightBlue</item>
+        <item name="colorMainIconReflection">@color/calmingBlueWhite</item>
+        <item name="colorMainTextOpening">@color/calmingBlueWhite</item>
+        <item name="colorMainButton">@color/calmingBlueWhite</item>
+        <item name="colorMainButtonText">@color/calmingBlueLightBlue</item>
+        <item name="colorMainButtonLoader">@color/calmingBlueWhite</item>
+
+        <!-- Choose Program Activity -->
+        <item name="colorChooseProgramBackgroundTop">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramBackgroundBottom">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramRectBorderTop">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramRectBorderBottom">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconRelaxedCup">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramIconRelaxedAshtray">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramIconRelaxedCoffee">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconRelaxedStrip">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconRelaxedShadow">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconRelaxedSmoke">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramIconRelaxedSpace">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramTextRelaxedTitle">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramTextRelaxedOne">@color/calmingBlueDarkBlue </item>
+        <item name="colorChooseProgramTextRelaxedTwo">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramTextRelaxedThree">@color/calmingBlueDarkBlue </item>
+        <item name="colorChooseProgramButtonOkRelaxedBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramButtonOkRelaxedText">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconTargetedCrosshair">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconTargetedCigs">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramIconTargetedStrip">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramIconTargetedSpace">@color/calmingBlueLightBlue </item>
+        <item name="colorChooseProgramTextTargetedTitle">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramTextTargetedOne">@color/calmingBlueDarkBlue </item>
+        <item name="colorChooseProgramTextTargetedTwo">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramTextTargetedThree">@color/calmingBlueDarkBlue </item>
+        <item name="colorChooseProgramButtonOkTargetedBackground">@color/calmingBlueWhite </item>
+        <item name="colorChooseProgramButtonOkTargetedText">@color/calmingBlueLightBlue </item>
+
+        <!-- Setup Relaxed Activity -->
+        <item name="colorSetupRelaxedBackground">@color/calmingBlueWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedCup">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedIconRelaxedAshtray">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedIconRelaxedCoffee">@color/calmingBlueWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedStrip">@color/calmingBlueWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedShadow">@color/calmingBlueWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedSmoke">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextTitle">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextMaxCigarette">@color/calmingBlueDarkBlue  </item>
+        <item name="colorSetupRelaxedTextMaxCigaretteDesc">@color/calmingBlueDarkBlue  </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteText">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextEmergency">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedTextEmergencyDesc">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedEditTextEmergencyBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedEditTextEmergencyText">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextOpeningDesc">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedTextNever">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextHour">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedTextNumberHour">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextMinute">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedTextNumberMinute">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextSecond">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedTextNumberSecond">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedTextEmergencyDescBottom">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupRelaxedButton">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupRelaxedButtonText">@color/calmingBlueWhite </item>
+        <item name="colorSetupRelaxedButtonLoader">@color/calmingBlueWhite </item>
+
+        <!-- Setup targeted Activity -->
+        <item name="colorSetupTargetedBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupTargetedIconTargetedCrosshair">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedIconTargetedCigs">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedIconTargetedStrip">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupTargetedTextTitle">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextMaxCigarette">@color/calmingBlueWhite</item>
+        <item name="colorSetupTargetedTextMaxCigaretteDesc">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteBackground">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteText">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextTarget">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextTargetDesc">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextTargetBackground">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextTargetText">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextEmergency">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextEmergencyDesc">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextEmergencyBackground">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedEditTextEmergencyText">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextOpeningDesc">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupTargetedTextNever">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextHour">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupTargetedTextNumberHour">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextMinute">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupTargetedTextNumberMinute">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextSecond">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupTargetedTextNumberSecond">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedTextEmergencyDescBottom">@color/calmingBlueDarkBlue </item>
+        <item name="colorSetupTargetedButton">@color/calmingBlueWhite </item>
+        <item name="colorSetupTargetedButtonText">@color/calmingBlueLightBlue </item>
+        <item name="colorSetupTargetedButtonLoader">@color/calmingBlueLightBlue </item>
+
+        <!-- Home Activity -->
+        <item name="colorHomeBackground">@color/calmingBlueWhite </item>
+        <item name="colorHomeDayNumber">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeDayText">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeIconMenuBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeIconMenuCig">@color/calmingBlueWhite </item>
+        <item name="colorHomeIconMenuStrip">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeIconSetting">@color/calmingBlueWhite </item>
+        <item name="colorHomeIconPreference">@color/calmingBlueWhite </item>
+        <item name="colorHomeIconStatistic">@color/calmingBlueWhite </item>
+        <item name="colorHomeIconTargetedCrosshair">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeIconTargetedCig">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeIconTargetedStrip">@color/calmingBlueWhite </item>
+        <item name="colorHomeCigStroke">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeCigBody">@color/calmingBlueWhite </item>
+        <item name="colorHomeBoxTopLid">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeBoxInnerCover">@color/calmingBlueGrey </item>
+        <item name="colorHomeBoxMidSection">@color/calmingBlueWhite </item>
+        <item name="colorHomeBoxBottomSection">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeTimer">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeEmergencyText">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeEmergencyNumber">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeCigAvailableText">@color/calmingBlueWhite </item>
+        <item name="colorHomeCigAvailableNumber">@color/calmingBlueWhite </item>
+        <item name="colorHomeBtnBackground">@color/calmingBlueWhite </item>
+        <item name="colorHomeMatchStick">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeMatchFire">@color/calmingBlueFireRed </item>
+        <item name="colorHomeSmoothText">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeUndoText">@color/calmingBlueWhite </item>
+        <item name="colorHomeUndoBackground">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeUndoIcon">@color/calmingBlueWhite </item>
+        <item name="colorHomeWhyBackground">@color/calmingBlueWhite </item>
+        <item name="colorHomeWhyItemMoodBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeWhyItemMoodTextTitle">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeWhyItemMoodText">@color/calmingBlueLightBlue </item>
+        <item name="colorHomeWhyItemEventBackground">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeWhyItemEventTextTitle">@color/calmingBlueDarkBlue </item>
+        <item name="colorHomeWhyItemEventText">@color/calmingBlueDarkBlue </item>
+
+        <!-- Option Activity -->
+        <item name="colorOptionBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorOptionTitle">@color/calmingBlueWhite </item>
+        <item name="colorOptionBackBacground">@color/calmingBlueWhite </item>
+        <item name="colorOptionBackIcon">@color/calmingBlueLightBlue </item>
+
+        <!-- Settings Fragment -->
+        <item name="colorSettingsBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSettingsChangeProgramBackground">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeProgramTitle">@color/calmingBlueDarkBlue </item>
+        <item name="colorSettingsChangeProgramDesc">@color/calmingBlueDarkBlue </item>
+        <item name="colorSettingsChangeProgramButtonBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSettingsChangeProgramButtontext">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeCounterBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorSettingsChangeCounterBackgroundStroke">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeCounterTitle">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeCounterDesc">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeCounterButtonBackground">@color/calmingBlueWhite </item>
+        <item name="colorSettingsChangeCounterButtontext">@color/calmingBlueLightBlue </item>
+
+        <!-- Statistic Fragment -->
+        <item name="colorStatisticBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorStatisticCardBackground">@color/calmingBlueWhite </item>
+        <item name="colorStatisticText">@color/calmingBlueDarkBlue </item>
+        <item name="colorStatisticLine">@color/calmingBlueLightBlue </item>
+
+        <!-- Preference Fragment -->
+        <item name="colorPreferenceBackground">@color/calmingBlueLightBlue </item>
+        <item name="colorPreferenceBackgroundCard">@color/calmingBlueWhite </item>
+        <item name="colorPreferenceTextCalmingBlue">@color/calmingBlueLightBlue </item>
+        <item name="colorPreferenceTextCalmingBlueDesc">@color/calmingBlueDarkBlue </item>
+        <item name="colorPreferenceTextDarkYetStriking">@color/calmingBlueDarkYetStrikingTextTitle </item>
+        <item name="colorPreferenceTextDarkYetStrikingDesc">@color/calmingBlueDarkYetStrikingTextDesc </item>
+        <item name="colorPreferenceTextKnightOfTheDark">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorPreferenceTextKnightOfTheDarkDesc">@color/knightOfTheDarkDarkGrey </item>
+
+        <item name="colorDialogText"> @color/calmingBlueDarkBlue </item>
+        <item name="colorDialogButton"> @color/calmingBlueLightBlue </item>
+        <item name="colorDialogButtonText"> @color/calmingBlueWhite </item>
+        <item name="colorDialogButtonLoader"> @color/calmingBlueLightBlue </item>
+        <item name="colorDialogThemeCalmingBlue"> @color/calmingBlueLightBlue </item>
+        <item name="colorDialogThemeDarkYetStriking"> @color/calmingBlueDarkYetStrikingTextTitle </item>
+        <item name="colorDialogThemeKnightOfTheDark"> @color/knightOfTheDarkDarkGrey </item>
+
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+<!-- ======================================================================================================================== -->
+
+    <style name="DarkYetStriking" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorPrimaryDark">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorAccent">@color/darkYetStrikingOrange</item>
+
+        <!-- Main Activity -->
+        <item name="colorMainBackgroundTop">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorMainBackgroundBottom">@color/darkYetStrikingOrange</item>
+        <item name="colorMainWelcomeText">@color/darkYetStrikingWhite</item>
+        <item name="colorMainIconPrimary">@color/darkYetStrikingOrange</item>
+        <item name="colorMainIconStrip">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorMainIconSmoke">@color/darkYetStrikingOrange</item>
+        <item name="colorMainIconReflection">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorMainTextOpening">@color/darkYetStrikingWhite</item>
+        <item name="colorMainButton">@color/darkYetStrikingDarkBlue</item>
+        <item name="colorMainButtonText">@color/darkYetStrikingWhite</item>
+        <item name="colorMainButtonLoader">@color/darkYetStrikingOrange</item>
+
+        <!-- Choose Program Activity -->
+        <item name="colorChooseProgramBackgroundTop">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramBackgroundBottom">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramRectBorderTop">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramRectBorderBottom">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramIconRelaxedCup">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramIconRelaxedAshtray">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramIconRelaxedCoffee">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramIconRelaxedStrip">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramIconRelaxedShadow">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramIconRelaxedSmoke">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramIconRelaxedSpace">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramTextRelaxedTitle">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramTextRelaxedOne">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramTextRelaxedTwo">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramTextRelaxedThree">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramButtonOkRelaxedBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramButtonOkRelaxedText">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramIconTargetedCrosshair">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramIconTargetedCigs">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramIconTargetedStrip">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramIconTargetedSpace">@color/darkYetStrikingOrange </item>
+        <item name="colorChooseProgramTextTargetedTitle">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramTextTargetedOne">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramTextTargetedTwo">@color/darkYetStrikingWhite </item>
+        <item name="colorChooseProgramTextTargetedThree">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramButtonOkTargetedBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorChooseProgramButtonOkTargetedText">@color/darkYetStrikingWhite </item>
+
+        <!-- Setup Relaxed Activity -->
+        <item name="colorSetupRelaxedBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSetupRelaxedIconRelaxedCup">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedIconRelaxedAshtray">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedIconRelaxedCoffee">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedStrip">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedShadow">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedSmoke">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextTitle">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextMaxCigarette">@color/darkYetStrikingWhite  </item>
+        <item name="colorSetupRelaxedTextMaxCigaretteDesc">@color/darkYetStrikingWhite  </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteText">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextEmergency">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextEmergencyDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedEditTextEmergencyBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedEditTextEmergencyText">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextOpeningDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextNever">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextHour">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextNumberHour">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextMinute">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextNumberMinute">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextSecond">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextNumberSecond">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedTextEmergencyDescBottom">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedButton">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupRelaxedButtonText">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedButtonLoader">@color/darkYetStrikingDarkBlue </item>
+
+        <!-- Setup targeted Activity -->
+        <item name="colorSetupTargetedBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSetupTargetedIconTargetedCrosshair">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedIconTargetedCigs">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedIconTargetedStrip">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSetupTargetedTextTitle">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextMaxCigarette">@color/darkYetStrikingWhite</item>
+        <item name="colorSetupTargetedTextMaxCigaretteDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteText">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextTarget">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextTargetDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextTargetBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedEditTextTargetText">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextEmergency">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextEmergencyDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextEmergencyBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedEditTextEmergencyText">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextOpeningDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNever">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextHour">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberHour">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextMinute">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberMinute">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextSecond">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberSecond">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedTextEmergencyDescBottom">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedButton">@color/darkYetStrikingOrange </item>
+        <item name="colorSetupTargetedButtonText">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedButtonLoader">@color/darkYetStrikingDarkBlue </item>
+
+        <!-- Home Activity -->
+        <item name="colorHomeBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeDayNumber">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeDayText">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeIconMenuBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeIconMenuCig">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeIconMenuStrip">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeIconSetting">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeIconPreference">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeIconStatistic">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeIconTargetedCrosshair">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeIconTargetedCig">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeIconTargetedStrip">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeCigStroke">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeCigBody">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeBoxTopLid">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeBoxInnerCover">@color/darkYetStrikingGrey </item>
+        <item name="colorHomeBoxMidSection">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeBoxBottomSection">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeTimer">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeEmergencyText">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeEmergencyNumber">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeCigAvailableText">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeCigAvailableNumber">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeBtnBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeMatchStick">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeMatchFire">@color/darkYetStrikingFireRed </item>
+        <item name="colorHomeSmoothText">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeUndoText">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeUndoBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeUndoIcon">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeWhyBackground">@color/calmingBlueWhite </item>
+        <item name="colorHomeWhyItemMoodBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeWhyItemMoodTextTitle">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeWhyItemMoodText">@color/darkYetStrikingOrange </item>
+        <item name="colorHomeWhyItemEventBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeWhyItemEventTextTitle">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeWhyItemEventText">@color/darkYetStrikingDarkBlue </item>
+
+        <!-- Option Activity -->
+        <item name="colorOptionBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorOptionTitle">@color/darkYetStrikingWhite </item>
+        <item name="colorOptionBackBacground">@color/darkYetStrikingOrange </item>
+        <item name="colorOptionBackIcon">@color/darkYetStrikingWhite </item>
+
+        <!-- Settings Fragment -->
+        <item name="colorSettingsBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSettingsChangeProgramBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSettingsChangeProgramTitle">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramButtonBackground">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramButtontext">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSettingsChangeCounterBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorSettingsChangeCounterBackgroundStroke">@color/darkYetStrikingOrange </item>
+        <item name="colorSettingsChangeCounterTitle">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeCounterDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeCounterButtonBackground">@color/darkYetStrikingOrange </item>
+        <item name="colorSettingsChangeCounterButtontext">@color/darkYetStrikingWhite </item>
+
+        <!-- Statistic Fragment -->
+        <item name="colorStatisticBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorStatisticCardBackground">@color/darkYetStrikingWhite </item>
+        <item name="colorStatisticText">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorStatisticLine">@color/darkYetStrikingOrange </item>
+
+        <!-- Preference Fragment -->
+        <item name="colorPreferenceBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorPreferenceBackgroundCard">@color/darkYetStrikingWhite </item>
+        <item name="colorPreferenceTextCalmingBlue">@color/darkYetStrikingCalmingBlueTextTitle </item>
+        <item name="colorPreferenceTextCalmingBlueDesc">@color/darkYetStrikingCalmingBlueTextDesc </item>
+        <item name="colorPreferenceTextDarkYetStriking">@color/darkYetStrikingOrange </item>
+        <item name="colorPreferenceTextDarkYetStrikingDesc">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorPreferenceTextKnightOfTheDark">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorPreferenceTextKnightOfTheDarkDesc">@color/knightOfTheDarkDarkGrey </item>
+
+        <item name="colorDialogText"> @color/darkYetStrikingDarkBlue </item>
+        <item name="colorDialogButton"> @color/darkYetStrikingOrange </item>
+        <item name="colorDialogButtonText"> @color/darkYetStrikingWhite </item>
+        <item name="colorDialogButtonLoader"> @color/darkYetStrikingDarkBlue </item>
+        <item name="colorDialogThemeCalmingBlue"> @color/darkYetStrikingCalmingBlueTextTitle </item>
+        <item name="colorDialogThemeDarkYetStriking"> @color/darkYetStrikingOrange </item>
+        <item name="colorDialogThemeKnightOfTheDark"> @color/knightOfTheDarkDarkGrey </item>
+
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <!-- ======================================================================================================================== -->
+
+    <style name="KnightOfTheDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/knightOfTheDarkGrey</item>
+        <item name="colorPrimaryDark">@color/knightOfTheDarkDarkGrey</item>
+        <item name="colorAccent">@color/knightOfTheDarkYellow</item>
+
+        <!-- Main Activity -->
+        <item name="colorMainBackgroundTop">@color/knightOfTheDarkGrey</item>
+        <item name="colorMainBackgroundBottom">@color/knightOfTheDarkDarkGrey</item>
+        <item name="colorMainWelcomeText">@color/knightOfTheDarkBlueGrey</item>
+        <item name="colorMainIconPrimary">@color/knightOfTheDarkDarkGrey</item>
+        <item name="colorMainIconStrip">@color/knightOfTheDarkGrey</item>
+        <item name="colorMainIconSmoke">@color/knightOfTheDarkDarkGrey</item>
+        <item name="colorMainIconReflection">@color/knightOfTheDarkGrey</item>
+        <item name="colorMainTextOpening">@color/knightOfTheDarkWhite</item>
+        <item name="colorMainButton">@color/knightOfTheDarkGrey</item>
+        <item name="colorMainButtonText">@color/knightOfTheDarkYellow</item>
+        <item name="colorMainButtonLoader">@color/knightOfTheDarkGrey</item>
+
+        <!-- Choose Program Activity -->
+        <item name="colorChooseProgramBackgroundTop">@color/knightOfTheDarkGrey </item>
+        <item name="colorChooseProgramBackgroundBottom">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramRectBorderTop">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramRectBorderBottom">@color/knightOfTheDarkYellow </item>
+        <item name="colorChooseProgramIconRelaxedCup">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramIconRelaxedAshtray">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramIconRelaxedCoffee">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramIconRelaxedStrip">@color/knightOfTheDarkGrey </item>
+        <item name="colorChooseProgramIconRelaxedShadow">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramIconRelaxedSmoke">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramIconRelaxedSpace">@color/knightOfTheDarkGrey </item>
+        <item name="colorChooseProgramTextRelaxedTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramTextRelaxedOne">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramTextRelaxedTwo">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramTextRelaxedThree">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramButtonOkRelaxedBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramButtonOkRelaxedText">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramIconTargetedCrosshair">@color/knightOfTheDarkYellow </item>
+        <item name="colorChooseProgramIconTargetedCigs">@color/knightOfTheDarkYellow </item>
+        <item name="colorChooseProgramIconTargetedStrip">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramIconTargetedSpace">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorChooseProgramTextTargetedTitle">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramTextTargetedOne">@color/knightOfTheDarkGrey </item>
+        <item name="colorChooseProgramTextTargetedTwo">@color/knightOfTheDarkWhite </item>
+        <item name="colorChooseProgramTextTargetedThree">@color/knightOfTheDarkGrey </item>
+        <item name="colorChooseProgramButtonOkTargetedBackground">@color/knightOfTheDarkYellow </item>
+        <item name="colorChooseProgramButtonOkTargetedText">@color/knightOfTheDarkDarkGrey </item>
+
+        <!-- Setup Relaxed Activity -->
+        <item name="colorSetupRelaxedBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorSetupRelaxedIconRelaxedCup">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedIconRelaxedAshtray">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedIconRelaxedCoffee">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedIconRelaxedStrip">@color/knightOfTheDarkGrey </item>
+        <item name="colorSetupRelaxedIconRelaxedShadow">@color/knightOfTheDarkGrey </item>
+        <item name="colorSetupRelaxedIconRelaxedSmoke">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedTextTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedTextMaxCigarette">@color/knightOfTheDarkWhite  </item>
+        <item name="colorSetupRelaxedTextMaxCigaretteDesc">@color/darkYetStrikingWhite  </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedEditTextMaxCigaretteText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedTextEmergency">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedTextEmergencyDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupRelaxedEditTextEmergencyBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedEditTextEmergencyText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedTextOpeningDesc">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedTextNever">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupRelaxedTextHour">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedTextNumberHour">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupRelaxedTextMinute">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedTextNumberMinute">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupRelaxedTextSecond">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedTextNumberSecond">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupRelaxedTextEmergencyDescBottom">@color/knightOfTheDarkWhite </item>
+        <item name="colorSetupRelaxedButton">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupRelaxedButtonText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupRelaxedButtonLoader">@color/knightOfTheDarkGrey </item>
+
+        <!-- Setup targeted Activity -->
+        <item name="colorSetupTargetedBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorSetupTargetedIconTargetedCrosshair">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedIconTargetedCigs">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedIconTargetedStrip">@color/knightOfTheDarkGrey </item>
+        <item name="colorSetupTargetedTextTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedTextMaxCigarette">@color/darkYetStrikingWhite</item>
+        <item name="colorSetupTargetedTextMaxCigaretteDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedEditTextMaxCigaretteText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedTextTarget">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextTargetDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextTargetBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedEditTextTargetText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedTextEmergency">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextEmergencyDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedEditTextEmergencyBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedEditTextEmergencyText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedTextOpeningDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNever">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedTextHour">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberHour">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedTextMinute">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberMinute">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedTextSecond">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedTextNumberSecond">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedTextEmergencyDescBottom">@color/darkYetStrikingWhite </item>
+        <item name="colorSetupTargetedButton">@color/knightOfTheDarkYellow </item>
+        <item name="colorSetupTargetedButtonText">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSetupTargetedButtonLoader">@color/knightOfTheDarkGrey </item>
+
+        <!-- Home Activity -->
+        <item name="colorHomeBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorHomeDayNumber">@color/knightOfTheDarkWhite </item>
+        <item name="colorHomeDayText">@color/knightOfTheDarkBlueGrey </item>
+        <item name="colorHomeIconMenuBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeIconMenuCig">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconMenuStrip">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeIconSetting">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconPreference">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconStatistic">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconTargetedCrosshair">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconTargetedCig">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeIconTargetedStrip">@color/knightOfTheDarkGrey </item>
+        <item name="colorHomeCigStroke">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeCigBody">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeBoxTopLid">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeBoxInnerCover">@color/knightOfTheDarkLightGrey </item>
+        <item name="colorHomeBoxMidSection">@color/knightOfTheDarkBlueGrey </item>
+        <item name="colorHomeBoxBottomSection">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeTimer">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeEmergencyText">@color/knightOfTheDarkWhite </item>
+        <item name="colorHomeEmergencyNumber">@color/knightOfTheDarkWhite </item>
+        <item name="colorHomeCigAvailableText">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeCigAvailableNumber">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeBtnBackground">@color/knightOfTheDarkYellow </item>
+        <item name="colorHomeMatchStick">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeMatchFire">@color/darkYetStrikingFireRed </item>
+        <item name="colorHomeSmoothText">@color/knightOfTheDarkWhite </item>
+        <item name="colorHomeUndoText">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeUndoBackground">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorHomeUndoIcon">@color/darkYetStrikingWhite </item>
+        <item name="colorHomeWhyBackground">@color/knightOfTheDarkWhite </item>
+        <item name="colorHomeWhyItemMoodBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorHomeWhyItemMoodTextTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeWhyItemMoodText">@color/knightOfTheDarkGrey </item>
+        <item name="colorHomeWhyItemEventBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeWhyItemEventTextTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorHomeWhyItemEventText">@color/knightOfTheDarkDarkGrey </item>
+
+        <!-- Option Activity -->
+        <item name="colorOptionBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorOptionTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorOptionBackBacground">@color/knightOfTheDarkYellow </item>
+        <item name="colorOptionBackIcon">@color/knightOfTheDarkDarkGrey </item>
+
+        <!-- Settings Fragment -->
+        <item name="colorSettingsBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorSettingsChangeProgramBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSettingsChangeProgramTitle">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramDesc">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramButtonBackground">@color/darkYetStrikingWhite </item>
+        <item name="colorSettingsChangeProgramButtontext">@color/knightOfTheDarkBlueGrey </item>
+        <item name="colorSettingsChangeCounterBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorSettingsChangeCounterBackgroundStroke">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSettingsChangeCounterTitle">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSettingsChangeCounterDesc">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSettingsChangeCounterButtonBackground">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorSettingsChangeCounterButtontext">@color/knightOfTheDarkWhite </item>
+
+        <!-- Statistic Fragment -->
+        <item name="colorStatisticBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorStatisticCardBackground">@color/darkYetStrikingWhite </item>
+        <item name="colorStatisticText">@color/knightOfTheDarkBlueGrey </item>
+        <item name="colorStatisticLine">@color/knightOfTheDarkGrey </item>
+
+        <!-- Preference Fragment -->
+        <item name="colorPreferenceBackground">@color/knightOfTheDarkGrey </item>
+        <item name="colorPreferenceBackgroundCard">@color/knightOfTheDarkWhite </item>
+        <item name="colorPreferenceTextCalmingBlue">@color/darkYetStrikingCalmingBlueTextTitle </item>
+        <item name="colorPreferenceTextCalmingBlueDesc">@color/darkYetStrikingCalmingBlueTextDesc </item>
+        <item name="colorPreferenceTextDarkYetStriking">@color/darkYetStrikingOrange </item>
+        <item name="colorPreferenceTextDarkYetStrikingDesc">@color/darkYetStrikingDarkBlue </item>
+        <item name="colorPreferenceTextKnightOfTheDark">@color/knightOfTheDarkDarkGrey </item>
+        <item name="colorPreferenceTextKnightOfTheDarkDesc">@color/knightOfTheDarkDarkGrey </item>
+
+        <item name="colorDialogText"> @color/knightOfTheDarkDarkGrey </item>
+        <item name="colorDialogButton"> @color/knightOfTheDarkDarkGrey </item>
+        <item name="colorDialogButtonText"> @color/knightOfTheDarkYellow </item>
+        <item name="colorDialogButtonLoader"> @color/knightOfTheDarkGrey </item>
+        <item name="colorDialogThemeCalmingBlue"> @color/darkYetStrikingCalmingBlueTextTitle </item>
+        <item name="colorDialogThemeDarkYetStriking"> @color/darkYetStrikingOrange </item>
+        <item name="colorDialogThemeKnightOfTheDark"> @color/knightOfTheDarkDarkGrey </item>
+
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+
+<!-- ============================Animation======================================================= -->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+</resources>

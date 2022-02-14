@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="131.986dp"
+    android:height="65.873dp"
+    android:viewportWidth="131.986"
+    android:viewportHeight="65.873">
+  <path
+      android:pathData="m8.719,27.092 l14.336,0.486c-0.929,9.65 1.973,10.347 6.059,10.307 4.551,-0.045 6.541,-1.792 5.107,-10.55l48.975,-0.158c0,0 -7.875,-0.133 0,0 7.875,0.133 10.985,-0.036 10.985,-0.036l15.064,-0.049c4.707,-0.015 8.496,3.789 8.496,8.496v21.631c0,4.707 -3.789,8.496 -8.496,8.496L8.719,65.716c-4.707,0 -8.496,-3.789 -8.496,-8.496v-21.631c0,-4.707 3.792,-8.656 8.496,-8.496z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.343434"
+      android:fillColor="?attr/colorMainIconPrimary"
+      android:strokeColor="?attr/colorMainIconPrimary"/>
+  <path
+      android:pathData="M36.398,55.14L124.388,0.537A2.504,2.549 90,0 1,127.904 1.317L131.506,6.92A2.504,2.549 90,0 1,130.712 10.374L42.722,64.977A2.504,2.549 90,0 1,39.206 64.197L35.604,58.595A2.504,2.549 90,0 1,36.398 55.14z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.312015"
+      android:fillColor="?attr/colorMainIconPrimary"
+      android:strokeColor="?attr/colorMainIconPrimary"/>
+  <path
+      android:pathData="M100.259,16.107L100.259,16.107A0.506,0.515 90,0 1,100.969 16.265L106.011,24.107A0.506,0.515 90,0 1,105.851 24.805L105.851,24.805A0.506,0.515 90,0 1,105.14 24.647L100.099,16.805A0.506,0.515 90,0 1,100.259 16.107z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.425"
+      android:fillColor="?attr/colorMainIconPrimary"
+      android:strokeColor="?attr/colorMainIconPrimary"/>
+  <path
+      android:pathData="M100.992,16.258L101.457,15.953A0.116,0.116 101.717,0 1,101.618 15.986L106.881,24.005A0.116,0.116 101.716,0 1,106.848 24.166L106.383,24.471A0.116,0.116 101.716,0 1,106.222 24.437L100.959,16.419A0.116,0.116 101.717,0 1,100.992 16.258z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="0.230781"
+      android:fillColor="?attr/colorMainIconStrip"
+      android:strokeColor="?attr/colorMainIconStrip"/>
+</vector>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/dimen_standard_5x"
+    android:paddingStart="@dimen/dimen_standard_2x"
+    android:paddingEnd="@dimen/dimen_standard_2x">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_standard_2x"
+        android:text="@string/are_you_sure"
+        android:textColor="?attr/colorDialogText"
+        android:textSize="@dimen/text_size_big"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_standard_2x"
+        android:gravity="center"
+        android:text="@string/all_your_previously_saved_data_will_be_lost"
+        android:textColor="?attr/colorDialogText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <com.royrodriguez.transitionbutton.TransitionButton
+        android:id="@+id/btn_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_standard_3x"
+        android:layout_marginStart="@dimen/dimen_standard_2x"
+        android:layout_marginEnd="@dimen/dimen_standard_2x"
+        android:padding="@dimen/dimen_standard_2x"
+        android:text="@string/continues"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorDialogButtonText"
+        app:defaultColor="?attr/colorDialogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        app:loaderColor="?attr/colorDialogButtonLoader" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
