@@ -1,0 +1,5 @@
+CigC Privacy Policy
+
+All the data used in the application are stored in the device only.
+No user data are collected or used other than locally.
+To get rid of the data used in the application, user only need to clear the app data on the device.
