@@ -26,7 +26,7 @@
         android:layout_marginTop="@dimen/dimen_standard_2x"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/happy"
         android:layout_below="@id/why_mood_title"
@@ -37,7 +37,7 @@
         android:text="@string/happy"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:id="@+id/sad"
         android:gravity="center"
         android:layout_below="@id/why_mood_title"
@@ -50,7 +50,7 @@
         android:text="@string/sad"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:id="@+id/angry"
         android:gravity="center"
         android:layout_below="@id/why_mood_title"
@@ -63,7 +63,7 @@
         android:text="@string/angry"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:id="@+id/bored"
         android:gravity="center"
         android:layout_below="@id/happy"
@@ -74,7 +74,7 @@
         android:text="@string/bored"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:id="@+id/tensed"
         android:gravity="center"
         android:layout_below="@id/happy"
@@ -87,7 +87,7 @@
         android:text="@string/tensed"/>
     <TextView
         android:layout_width="@dimen/dimen_standard_8x"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:id="@+id/craving"
         android:gravity="center"
         android:layout_below="@id/happy"
@@ -127,7 +127,7 @@
         android:text="@string/event_related_cause" />
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/after_meal"
         android:layout_below="@id/why_event_title"
@@ -138,7 +138,7 @@
         android:text="@string/after_meal"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/on_break"
         android:layout_below="@id/why_event_title"
@@ -151,7 +151,7 @@
         android:text="@string/on_break"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/working"
         android:layout_below="@id/why_event_title"
@@ -164,7 +164,7 @@
         android:text="@string/working"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/after_sex"
         android:layout_below="@id/after_meal"
@@ -175,7 +175,7 @@
         android:text="@string/after_sex"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/toilet"
         android:layout_below="@id/after_meal"
@@ -188,7 +188,7 @@
         android:text="@string/in_the_toilet"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/dimen_standard_6x"
         android:gravity="center"
         android:id="@+id/emphatic"
         android:layout_below="@id/after_sex"

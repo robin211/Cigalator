@@ -11,10 +11,16 @@ android {
         applicationId "com.dputera.cigalator"
         minSdkVersion 26
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
     }
 
     buildTypes {
@@ -41,6 +47,8 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt 'androidx.room:room-compiler:2.3.0'
     implementation 'androidx.room:room-ktx:2.3.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
 
     implementation 'com.google.android.gms:play-services-ads:20.5.0'
 

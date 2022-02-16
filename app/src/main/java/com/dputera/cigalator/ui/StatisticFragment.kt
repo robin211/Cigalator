@@ -42,6 +42,22 @@ class StatisticFragment : Fragment() {
     private var mYear = 0
     private lateinit var allCigData: List<CigaretteTime>
 
+    private val HAPPY = "when happy"
+    private val SAD = "when sad"
+    private val ANGRY = "when angry"
+    private val BORED = "when bored"
+    private val TENSED = "when tensed"
+    private val CRAVING = "while craving"
+    private val AFTER_MEAL = "after meal"
+    private val AFTER_SEX = "after sex"
+    private val ON_BREAK = "while on break"
+    private val TOILET = "while in toilet"
+    private val EMPHATIC = "after seeing other people smokes"
+    private val WORKING = "while working"
+
+
+
+
     companion object {
         fun newInstance(): StatisticFragment {
             return StatisticFragment()
@@ -229,6 +245,7 @@ class StatisticFragment : Fragment() {
         populateSixthAnalysis(listWeekData)
     }
 
+    @SuppressLint("SetTextI18n")
     private fun populateSixthAnalysis(listWeekData: List<CigaretteTime>) {
         val reasonList = mutableListOf(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
         for (x in listWeekData) {
@@ -246,22 +263,14 @@ class StatisticFragment : Fragment() {
             if (reasonList[d] == max) {
                 val sReason = getStringReason(d)
                 if (stringReason == "") {
-                    stringReason = if (sReason.subSequence(0, 5) == "After") {
-                        sReason
-                    } else {
-                        "while $sReason"
-                    }
+                    stringReason = sReason
                 } else {
-                    stringReason += if (sReason.subSequence(0, 5) == "After") {
-                        ", $sReason"
-                    } else {
-                        ", while $sReason"
-                    }
+                    stringReason += ", $sReason"
                 }
             }
         }
         requireActivity().runOnUiThread {
-            txt_this_week_6.text = "You smoke the most ($max) $stringReason"
+            txt_this_week_6.text = "You smoke the most ($max) $stringReason."
         }
 
     }
@@ -269,18 +278,18 @@ class StatisticFragment : Fragment() {
     private fun getStringReason(index: Int): String {
         var result = ""
         when (index) {
-            0 -> result = "Happy"
-            1 -> result = "Sad"
-            2 -> result = "Angry"
-            3 -> result = "Bored"
-            4 -> result = "Tensed"
-            5 -> result = "Craving"
-            6 -> result = "After Meal"
-            7 -> result = "After Sex"
-            8 -> result = "On Break"
-            9 -> result = "In the Toilet"
-            10 -> result = "Seeing other people smoking"
-            11 -> result = "Working"
+            0 -> result = HAPPY
+            1 -> result = SAD
+            2 -> result = ANGRY
+            3 -> result = BORED
+            4 -> result = TENSED
+            5 -> result = CRAVING
+            6 -> result = AFTER_MEAL
+            7 -> result = AFTER_SEX
+            8 -> result = ON_BREAK
+            9 -> result = TOILET
+            10 -> result = EMPHATIC
+            11 -> result = WORKING
         }
         return result
     }

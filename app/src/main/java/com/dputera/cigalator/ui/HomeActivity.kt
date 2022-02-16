@@ -64,11 +64,18 @@ class HomeActivity : AppCompatActivity() {
         programType = sharedPreferences.getInt(SP_PROGRAM_TYPE, PROGRAM_TYPE_RELAXED)
 
         if (programType == PROGRAM_TYPE_RELAXED){
-            setUpCountDown(sharedPreferences.getLong(SP_CURRENT_TIME_FOR_ONE, 0L))
+            val lastAdditional = sharedPreferences.getLong(SP_LAST_ADDITION, 0L)
+            val currentTfo = sharedPreferences.getLong(SP_CURRENT_TIME_FOR_ONE, 0L)
+            val nextAdditional = lastAdditional.plus(currentTfo)
+            val timeToNextAddition = nextAdditional.minus(Calendar.getInstance().timeInMillis)
+            setUpCountDown(timeToNextAddition)
             setUpRelaxedView()
         }else {
             val currentTfo = setUpTargetedView()
-            setUpCountDownTargeted(currentTfo)
+            val lastAddition = sharedPreferences.getLong(SP_LAST_ADDITION, 0L)
+            val nextAdditions = lastAddition + currentTfo
+            val timeToNext = nextAdditions.minus(Calendar.getInstance().timeInMillis)
+            setUpCountDownTargeted(timeToNext)
         }
 
         btn_light.setOnClickListener {
